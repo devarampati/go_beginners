@@ -26,7 +26,7 @@ func (){
 ```
 * Data types additional to C are **float32, float64, complex64, complex123**
 * Constants are declared through **const** keyword
-# Iteration loops in **GO** language
+# Flow control in **GO** language
 * **for**, **if**, **switch** loops does not need brackets, but similar to **C** syntax. 
 ```
   for i := 0; i < 10; i++ {
@@ -35,3 +35,4 @@ func (){
 ```
 * no **while**. **for** without **semicolon**,**initialization** and **increment** is **while** in **Go**
 * **defer** delayes the function execution until the **return** is called for the calling fucntion
+# Pointers in **GO** language
